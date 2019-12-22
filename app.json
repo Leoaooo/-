@@ -1,0 +1,45 @@
+
+{
+  "pages": [
+    "pages/index/index",
+    "pages/index1/index1",
+    "pages/index2/index2",
+    "pages/index3/index3"
+    ],
+  "window": {
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#0094ee",
+    "navigationBarTitleText": "北邮厕所小助手",
+    "navigationBarTextStyle": "white",
+    "enablePullDownRefresh": true,
+    "onReachBottomDistance": 5000000,
+    "navigationStyle": "default"
+  },
+  "tabBar": {
+    "borderStyle": "black",
+    "backgroundColor": "#f0ffff",
+    "list": [
+      {
+        "pagePath": "pages/index1/index1",
+        "text": "",
+        "iconPath": "icons/index1a.png",
+        "selectedIconPath": "icons/index1b.png"
+      },
+      {
+        "pagePath": "pages/index2/index2",
+        "text": "",
+        "iconPath": "icons/index2a.png",
+        "selectedIconPath": "icons/index2b.png"
+      },
+     
+        {
+          "pagePath": "pages/index3/index3",
+          "text": "",
+          "iconPath": "icons/index3a.png",
+          "selectedIconPath": "icons/index3b.png"
+        }
+    ]
+  },
+
+  "sitemapLocation": "sitemap16.json"
+}
